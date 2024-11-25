@@ -5,3 +5,4 @@ Su principal objetivo es facilitar la administración de los espacios de estacio
 
 El diagrama de clases muestra cómo se relacionan las entidades clave del sistema de parqueadero , como los vehículos, los espacios de parqueo, los clientes y los empleados. Esto permite entender claramente la estructura y sentar una base sólida para su implementación en un entorno real.
 
+## ``Cambios del primer intento de diagrama de clases UML acerca del sistema de gestión de parqueadero``
