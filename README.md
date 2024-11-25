@@ -12,10 +12,54 @@ Este sistema de gestion de parqueadero fue el primero creado, a diferencia del p
 
 ``Metodos y atributos a clases faltantes``
 
-Algunos atributos y metodos faltantes en el primer diagrama de clases se implementaron en la clase principal pues eran clases fantasmas y tenian mmucha importaancia
+Comparación de los diagramas
 
-``clienteRegular``:
-A esta clase se le implemento algunos atributos importantes como puntosAcomulados , descuento y metodos como canjearPuntos y consultarDescuento lo cual hace que tenga mayor interaccion con las demas clases.
+1. Clases y atributos:
+   
+``Class Diagram Principal:``
 
+Contiene una mayor variedad de clases como ClienteRegular, Visitante, Supervisor, Cajero, entre otras.
+Se incluyen atributos detallados para cada clase. Ejemplo: Cajero tiene turno y ventasTotales, mientras que Supervisor tiene areaAsignada.
+La clase Parqueadero tiene atributos como nombre, dirección y maxCapacidad.
+Class Diagram Base:
+
+Posee menos clases en comparación con el diagrama principal.
+Algunas clases tienen atributos distintos o ausentes. Por ejemplo, Empleado incluye #salario, pero no se mencionan atributos adicionales como en el otro diagrama.
+La clase Vehiculo en este diagrama incluye NumeroDePuertas (específico de Automovil).
+2. Métodos:
+
+``Class Diagram Principal :``
+
+Tiene métodos específicos y detallados para cada clase. Ejemplo: Cajero incluye emitirTicket() y aplicarDescuento().
+Class Diagram Base:
+
+Los métodos son más generales y menos descriptivos. Ejemplo: Supervisor solo incluye cobrar().
+
+3. Relaciones entre clases:
+
+``Class Diagram Principal:``
+
+Posee relaciones más detalladas y específicas entre las clases, como multiplicidades (1..*), conexiones con Empleado, Piso, Plaza, y otras.
+Se incluyen componentes relacionados como Suscripción y MétodoDePago.
+Class Diagram Base:
+
+Las relaciones son más simplificadas, sin el nivel de detalle de las multiplicidades en el principal.
+No incluye componentes como Suscripción ni otras asociaciones complejas.
+
+``4. Herencia y estructura:``
+Class Diagram Principal:
+
+Utiliza herencia con claridad, conectando clases como Automovil, Motocicleta, y Bicicleta a una clase base Vehiculo.
+Incluye una interfaz (IParqueadero) y especifica métodos implementados.
+Class Diagram Base:
+
+La herencia es menos sobresaliente. Aunque las clases derivadas (Automovil, Motocicleta, etc.) existen, faltan detalles sobre cómo implementan características únicas.
+También incluye una interfaz (InteraccionCliente), pero con métodos generales.
+
+``5. Componentes omitidos:``
+   
+Class Diagram Base omitidos:
+Clases como ClienteRegular, Factura, y Ticket.
+Métodos y atributos relacionados con la gestión de clientes, suscripciones y descuentos.
 
 
