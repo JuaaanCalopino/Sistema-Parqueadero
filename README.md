@@ -9,15 +9,29 @@ El diagrama de clases muestra cómo se relacionan las entidades clave del sistem
 
 ## Componentes Principales
 Parqueadero: Contiene una lista de pisos y gestiona las operaciones generales del sistema.
+
 Piso: Cada piso tiene varias plazas de estacionamiento.
+
 Plaza: Representa una unidad de estacionamiento que puede estar ocupada o disponible.
-Vehículo: Clase base para los tipos específicos de vehículos, como automóviles, motocicletas y bicicletas.
-Cliente:
+
+## Vehículo ( Clase abstracta ) :
+
+Clase base para los tipos específicos de vehículos, como automóviles, motocicletas y bicicletas.
+## Persona ( clase abstracta):
+
+De esta clase herendan diferentes clases como cliente y empleado
+
+## Cliente (Clase abstracta) :
 ClienteRegular: Cliente con suscripción, descuentos, y la capacidad de realizar reservas.
+
 Visitante: Cliente ocasional sin suscripción.
-Empleado:
+
+### Empleado Clase abstracta:
+
 Cajero: Registra pagos.
+
 Supervisor: Gestiona operaciones generales del parqueadero.
+
 Facturación: Permite generar recibos y gestionar los pagos.
 Enumeradores:
 MetodoDePago: Métodos disponibles para realizar pagos.
