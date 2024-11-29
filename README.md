@@ -47,5 +47,53 @@ De esta clase herendan diferentes clases como cliente y empleado
 `Cajero`: Registra pagos.
 
 `Supervisor`: Gestiona operaciones generales del parqueadero.
+# Características Clave
+Gestión de reservas por parte de clientes regulares.
+
+Asignación dinámica de plazas a los vehículos.
+
+Procesamiento de pagos utilizando diferentes métodos (efectivo, tarjeta, etc.).
+
+Generación de facturas detalladas.
+
+Integración de enumeradores para facilitar el manejo de estados y métodos de pago.
+
+## Requisitos
+
+Software
+
+Java 8 o superior.
+
+IDE (IntelliJ IDEA, Eclipse, etc.) o un editor de texto con soporte para Java.
+
+## Dependencias
+
+Ninguna. El proyecto utiliza únicamente bibliotecas estándar de Java.
+
+## Ejecución
+
+Clonar este repositorio:
+
+git clone https://github.com/tu-usuario/sistema-gestion-parqueaderos.git
+
+Compilar las clases:
+
+javac *.java
+
+Ejecutar el programa:
+
+java Main
+
+# Demostración
+
+El programa incluye un archivo Main con ejemplos que ilustran cómo usar el sistema. Durante la ejecución, se mostrarán las siguientes operaciones:
+
+Registro de un cliente regular y un visitante.
+Reserva de una plaza para un cliente regular.
+Asignación de una plaza a un visitante.
+Registro de pagos por parte de un cajero.
+Generación de facturas detalladas.
+
+
 
 
