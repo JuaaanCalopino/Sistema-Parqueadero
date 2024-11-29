@@ -14,6 +14,22 @@ Parqueadero: Contiene una lista de pisos y gestiona las operaciones generales de
 
 `Plaza`: Representa una unidad de estacionamiento que puede estar ocupada o disponible.
 
+## Componentes de un sistema de gestión de parqueadero : 
+
+Facturación: Permite generar recibos y gestionar los pagos.
+
+Enumeradores:
+
+`MetodoDePago` : Métodos disponibles para realizar pagos.
+
+`EstadoPlaza`: Define si una plaza está ocupada o libre.
+
+Interfaces : 
+`interaccionCliente` :
+La realiza la clase abstracta empleado.
+`iParqueadero`:
+La realiza la clase llamada Parqueadero.
+
 ## Vehículo ( Clase abstracta ) :
 
 Clase base para los tipos específicos de vehículos, como automóviles, motocicletas y bicicletas.
@@ -31,13 +47,5 @@ De esta clase herendan diferentes clases como cliente y empleado
 `Cajero`: Registra pagos.
 
 `Supervisor`: Gestiona operaciones generales del parqueadero.
-## Componentes de un sistema de gestión de parqueadero : 
 
-Facturación: Permite generar recibos y gestionar los pagos.
-
-Enumeradores:
-
-`MetodoDePago` : Métodos disponibles para realizar pagos.
-
-`EstadoPlaza`: Define si una plaza está ocupada o libre.
 
