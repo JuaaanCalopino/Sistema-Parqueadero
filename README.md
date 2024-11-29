@@ -74,7 +74,7 @@ Ninguna. El proyecto utiliza únicamente bibliotecas estándar de Java.
 
 Clonar este repositorio:
 
-git clone https://github.com/tu-usuario/sistema-gestion-parqueaderos.git
+git clone [https://github.com/tu-usuario/sistema-gestion-parqueaderos.git](https://github.com/JuaaanCalopino/Sistema-Parqueadero.git)
 
 Compilar las clases:
 
