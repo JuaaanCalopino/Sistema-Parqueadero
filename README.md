@@ -31,9 +31,13 @@ Visitante: Cliente ocasional sin suscripción.
 Cajero: Registra pagos.
 
 Supervisor: Gestiona operaciones generales del parqueadero.
+## Componentes de un sistema de gestión de parqueadero : 
 
 Facturación: Permite generar recibos y gestionar los pagos.
+
 Enumeradores:
+
 MetodoDePago: Métodos disponibles para realizar pagos.
+
 EstadoPlaza: Define si una plaza está ocupada o libre.
 
